@@ -1,0 +1,51 @@
+/*css file for first head html*/
+
+
+body {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: normal;
+	font-weight: normal;
+	background-color: white;
+	width: 1000px;
+	margin: auto;
+	margin-top: 50px;
+	line-height: 120%;
+	color: #4F4F4F;
+
+}
+
+
+
+h1 {
+	font-size: 140%;
+	font-weight: bold;
+	color: black;
+	/*text-decoration-line: underline;*/
+	/*font-style: italic;*/
+}
+
+#name {
+	font-weight: bold;
+	font-size: 180%;
+	color: black;
+}
+#last_time{
+	font-weight: normal;
+	font-size: small;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+ul li {
+	color: black;
+}
+
+#sidebar {
+	float: left;
+	width: 200px;
+	line-height: 200%;
+	font-size: 90%;
+}
+
