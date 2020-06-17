@@ -6,12 +6,26 @@ body {
 	font-size: normal;
 	font-weight: normal;
 	background-color: white;
-	width: 1000px;
+	width: 980px;
 	margin: auto;
-	margin-top: 50px;
+	/*margin-top: 20px;*/
 	line-height: 120%;
 	color: #4F4F4F;
+}
 
+#sidebar {
+	float: left;
+	width: 200px;
+	padding: 10px;
+	padding-top: 25px;
+	line-height: 200%;
+	font-size: 90%;
+}
+
+#main {
+	margin-left: 210px;
+	padding: 10px;
+	padding-top: 20px;
 }
 
 
@@ -42,10 +56,5 @@ ul li {
 	color: black;
 }
 
-#sidebar {
-	float: left;
-	width: 200px;
-	line-height: 200%;
-	font-size: 90%;
-}
+
 
