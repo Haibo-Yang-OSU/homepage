@@ -1,5 +1,6 @@
 
 
+var map = null;
 window.onload = init;
 
 function init() {
@@ -36,6 +37,38 @@ function displayLocation (position) {
 	var longitude = position.coords.longitude;
 
 	var div = document.getElementById("location");
-	div.innerHTML = "You are at Latitude: " + latitude + " , Longitude: " + longitude; 
+	div.innerHTML = "You are at Latitude: " + latitude + " , Longitude: " + longitude 
+					+ " with accuracy: " + position.coords.accuracy + " meters accuracy";
+
+	showMap(position.coords);
 }
+
+function showMap(coords) {
+	var googleLatAndLong = new google.maps.LatLng(coords.latitude, 
+												  coords.longitude);
+	var mapOptions = {
+		zoom: 10,
+		center: googleLatAndLong,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
+	var mapDiv = document.getElementById("map");
+	map = new google.maps.Map(mapDiv, mapOptions);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
