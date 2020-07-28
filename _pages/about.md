@@ -16,13 +16,16 @@ Research Insterests
 
 My research mainly focuses on theoretical understanding of provable first-order stochastic optimization methods for deep learning. Inspired by the theoretical insight and fundamental understanding of these algorithms, I am interested in developing intelligent and efficient algorithms to better fit large-scale distributed system.
 
-* First-order stochastic optimization algorithms
+* First-order stochastic optimization algorithms.
+
 To develope provable first-order stochastic optimization algorithms for non-convex problems in distritued learning / federated learning.
 
-* Communication-Efficient Distributed Learning
+* Communication-Efficient Distributed Learning.
+
 To develope secure machine learning algorithms.
 
-* Robust Machine Learning
-To develope secure machine learning algorithms.
+* Robust Machine Learning.
+
+To develop secure machine learning algorithms.
 
 
