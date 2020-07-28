@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Haibo Yang / Homepage"
 title_separator          : "-"
 name                     : &name "Haibo Yang"
-description              : &description "PhD student,<br> Dept. of Computer Science,<br> Iowa State University"
+description              : &description "Ph.D. student,<br> Dept. of Computer Science,<br> Iowa State University"
 url                      : https://goodphd.github.io/GoodPhd/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "GoodPhd/GoodPhd.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Haibo Yang"
   avatar           : "haibo.png"
-  bio              : "PhD student,<br> Dept. of Computer Science,<br> Iowa State University"
+  bio              : "Ph.D. student,<br> Dept. of Computer Science,<br> Iowa State University"
   location         : "217 Atanasoff Hall,<br> Iowa State University,<br> Ames, IA 50011 U.S.A."
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
