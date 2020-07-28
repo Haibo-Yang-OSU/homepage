@@ -14,4 +14,6 @@ My name is Haibo Yang. I am a third-year Ph.D. student in the [Dept. of Computer
 Research Insterests
 ------
 
-My research focuses on providing fundamental understandings of how distributed training algorithms are influenced by system-level variability in the computing infrastructure, and statistical variability in the training data. Inspired by the theoretical insights, I seek to design system- and data-aware distributed training algorithms that can seamless scale to a large number of computing nodes.
+My research focuses on theoretical understanding of stochastic optimization algorithms for deep learning. Inspired by these theoretical insights, I am interested in designing intelligent and adaptive algorithms to better fit distributed systems and statistical heterogeneity. In addition, I am also insterested in develope communication efficient and robust algorithms in distributed/federated learning.
+
+My research mainly focuses on theoretical understanding of provable first-order stochastic optimization methods for deep learning. Inspired by the theoretical insight and fundamental understanding of these algorithms, I am interested in developing intelligent and efficient algorithms to better fit distributed system and .
