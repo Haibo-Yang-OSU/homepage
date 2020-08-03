@@ -104,7 +104,7 @@ HTML `strong`: double asterisks `*` or underscores `_`.
 
 
 ## Reference:
-[Markdown] (https://daringfireball.net/projects/markdown/syntax#overview) 
+[Markdown](https://daringfireball.net/projects/markdown/syntax#overview) 
 
 
 
