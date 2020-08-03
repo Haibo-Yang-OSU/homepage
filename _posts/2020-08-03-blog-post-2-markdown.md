@@ -46,7 +46,7 @@ atx-style: 1-6 hash characters at the start of the line corresponds to six level
 
 ### Blockquotes
 Markdown uses email-style `>` characters for blockquoting. Blockquotes can be nested by adding additional `<`.
-    
+
 `< This is a quote.`
 < This is a quote.
 `<< Nested quote.`
@@ -100,10 +100,12 @@ The implicit link name shortcut allows you to omit the name of the link, in whic
 ### Emphasis
 HTML `<em>`: one asterisk `*` or underscore `_`.
 
+`*em*, _em_`
 *em*, _em_
 
 HTML `strong`: double asterisks `*` or underscores `_`.
 
+`**strong**, __strong__`
 **strong**, __strong__
 
 If you surround an `*` or `_` with spaces, it’ll be treated as a literal asterisk or underscore.
