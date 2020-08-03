@@ -96,7 +96,7 @@ The implicit link name shortcut allows you to omit the name of the link, in whic
 
 ### Emphasis
 HTML `<em>`: one asterisk `*` or underscore `_`.
-    *em*, _em_
+*em*, _em_
 
 HTML `strong`: double asterisks `*` or underscores `_`.
 **strong**, __strong__
