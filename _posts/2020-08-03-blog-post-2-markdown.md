@@ -25,10 +25,10 @@ When you do want to insert a `<br />` break tag using Markdown, you end a line w
 
 ### Headers
 Markdown supports two different styles of headers:   
-Setext-style: use underlines (any number) of equal signs and dashes for first- and second-level headers respectively. For example,   
-This is first-level header.
+Setext-style: use underlines (any number) of equal signs and dashes for first- and second-level headers respectively. For example:   
+This is first-level header.   
 === 
-Thisi is second-level header.
+Thisi is second-level header.   
 ---
 
 atx-style: 1-6 hash characters at the start of the line corresponds to six levels of headers. For example:
@@ -37,24 +37,42 @@ atx-style: 1-6 hash characters at the start of the line corresponds to six level
 ##### Fifth-level header
 
 ### Blockquotes
-Markdown uses email-style `>` characters for blockquoting. Blockquotes can be nested by adding additional `<`.
+Markdown uses email-style `>` characters for blockquoting. Blockquotes can be nested by adding additional `<`.    
 < This is a quote.
 << Nested quote.
 
 ### Lists
 Unordered lists use asterisks, pluses, and hyphens as list markers:
-*list 1*
-+list 2
--list 3
+* list 1*
++ list 2
+- list 3
 
 Ordered lists use numbers of followed by periods:
 1. ordered list1
-2. ordered list2    
+2. ordered list2  
+  
 Note that the actual number has no effect on the HTML output, say, it is same to write 3., 8, in the above example. It is translated to HTML:   
 <ol>
 <li>ordered list1</li>
 <li>ordered list2</li>
 </ol>
+
+List markers typically start at the left margin, but may be indented by up to three spaces. List markers must be followed by one or more spaces or a tab.    
+List items may consist of multiple paragraphs. Each subsequent paragraph in a list item must be indented by either 4 spaces or one tab.    
+To put a blockquote within a list item, the blockquote’s > delimiters need to be indented.    
+To put a code block within a list item, the code block needs to be indented twice — 8 spaces or two tabs.    
+A number-period-space sequence at the beginning of a line would be regarded as an ordered list. To avoid this, you can backslash-escape the period, e.g. 1\.
+
+### Code Blocks
+Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the lines of a code block are interpreted literally. Markdown wraps a code block in both `<pre>` and `<code>` tags.     
+To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab. 
+
+### Horizontal Rules
+Produce a horizontal rule tag `<hr />` by placing three or more hyphens, asterisks, or underscores on a line by themselves. For exampel:    
+-----
+*****
+
+
 
 
 
