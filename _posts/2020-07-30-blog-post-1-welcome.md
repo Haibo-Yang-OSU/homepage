@@ -3,9 +3,7 @@ title: 'Welcome'
 date: 2020-07-30
 permalink: /posts/2020/07/blog-post-1/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - begining of the post journey.
 ---
 
 Welcome to my blog posts.
