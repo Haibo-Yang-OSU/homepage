@@ -20,7 +20,6 @@ However, Markdown is not a replacement for HTML, or even close to it. Its syntax
 ## Block Elements
 
 ### Paragraphs and Line Breaks
-Def: A paargraph is simply one or more consecutive lines of text, seperated by one or more blank lines.
-
-When you do want to insert a <br /> break tag using Markdown, you end a line with two or more spaces, then type return.
+Def: A paargraph is simply one or more consecutive lines of text, seperated by one or more blank lines.   
+When you do want to insert a '<br />' break tag using Markdown, you end a line with two or more spaces, then type return.
 
