@@ -89,7 +89,16 @@ Inline links: `[link text](URL)`.
 URL could be a web location or a local resource.
 
 Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link.
-`[link text] [id]` and anywhere in the document `[id]: URL`.
+`[link text] [id]` and anywhere in the document `[id]: URL`.     
+The implicit link name shortcut allows you to omit the name of the link, in which case the link text itself is used as the name.
+`[link text] []` and anywhere in the document `[link text]: URL`.  
+
+### Emphasis
+HTML `<em>`: one asterisk `*` or underscore `_`.
+    *em*, _em_
+
+HTML `strong`: double asterisks `*` or underscores `_`.
+**strong**, __strong__
 
 
 
