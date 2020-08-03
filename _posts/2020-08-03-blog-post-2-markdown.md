@@ -25,10 +25,11 @@ When you do want to insert a `<br />` break tag using Markdown, you end a line w
 
 ### Headers
 Markdown supports two different styles of headers:   
-Setext-style: use underlines (any number) of equal signs and dashes for first- and second-level headers respectively. For example:   
+Setext-style: use underlines (any number) of equal signs and dashes for first- and second-level headers respectively. For example:  
+ 
 This is first-level header.   
 === 
-Thisi is second-level header.   
+This is second-level header.   
 ---
 
 atx-style: 1-6 hash characters at the start of the line corresponds to six levels of headers. For example:
@@ -43,7 +44,7 @@ Markdown uses email-style `>` characters for blockquoting. Blockquotes can be ne
 
 ### Lists
 Unordered lists use asterisks, pluses, and hyphens as list markers:
-* list 1*
+* list 1
 + list 2
 - list 3
 
