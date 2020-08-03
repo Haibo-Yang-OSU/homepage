@@ -59,11 +59,12 @@ Ordered lists use numbers of followed by periods:
 1. ordered list1
 2. ordered list2  
   
-Note that the actual number has no effect on the HTML output, say, it is same to write 3., 8, in the above example. It is translated to HTML:   
-<ol>
-<li>ordered list1</li>
-<li>ordered list2</li>
-</ol>
+Note that the actual number has no effect on the HTML output, say, it is same to write 3., 8, in the above example. It is translated to HTML:
+
+    <ol>
+        <li>ordered list1</li>
+        <li>ordered list2</li>
+    </ol>
 
 List markers typically start at the left margin, but may be indented by up to three spaces. List markers must be followed by one or more spaces or a tab.    
 List items may consist of multiple paragraphs. Each subsequent paragraph in a list item must be indented by either 4 spaces or one tab.    
