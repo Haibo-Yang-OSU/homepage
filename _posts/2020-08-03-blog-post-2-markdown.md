@@ -47,6 +47,17 @@ Unordered lists use asterisks, pluses, and hyphens as list markers:
 +list 2
 -list 3
 
+Ordered lists use numbers of followed by periods:
+1. ordered list1
+2. ordered list2    
+Note that the actual number has no effect on the HTML output, say, it is same to write 3., 8, in the above example. It is translated to HTML:   
+<ol>
+<li>ordered list1</li>
+<li>ordered list2</li>
+</ol>
+
+
+
 
 
 
