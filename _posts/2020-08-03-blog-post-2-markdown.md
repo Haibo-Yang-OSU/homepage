@@ -123,6 +123,7 @@ Similar to hyperlinks.
 `
 ![text](URL)
 `
+
 `
 ![text][id]
 `
