@@ -1,5 +1,5 @@
 ---
-title: 'Markdown'
+title: 'How to use Markdown'
 date: 2020-08-03
 permalink: /posts/2020/08/blog-post-2/
 tags:
