@@ -112,6 +112,9 @@ If you surround an `*` or `_` with spaces, it’ll be treated as a literal aster
 To produce a literal asterisk or underscore at a position where it would otherwise be used as an emphasis delimiter, you can backslash escape it:
 `\*em sentence\*`
 
+### Code
+Use the `` `print()` `` function.
+
 
 
 ## Reference:
