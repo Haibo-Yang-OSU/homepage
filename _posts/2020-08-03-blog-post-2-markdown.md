@@ -71,8 +71,9 @@ To produce a code block in Markdown, simply indent every line of the block by at
 
 ### Horizontal Rules
 Produce a horizontal rule tag `<hr />` by placing three or more hyphens, asterisks, or underscores on a line by themselves. For example:
-  
+
 -----
+
 *****
 
 
