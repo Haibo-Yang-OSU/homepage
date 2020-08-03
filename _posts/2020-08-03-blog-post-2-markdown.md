@@ -26,9 +26,10 @@ When you do want to insert a `<br />` break tag using Markdown, you end a line w
 ### Headers
 Markdown supports two different styles of headers:   
 Setext-style: use underlines (any number) of equal signs and dashes for first- and second-level headers respectively. For example:  
- 
+
 This is first-level header.   
 === 
+
 This is second-level header.   
 ---
 
