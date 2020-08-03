@@ -115,6 +115,18 @@ To produce a literal asterisk or underscore at a position where it would otherwi
 ### Code
 Use the `` `print()` `` function.
 
+With a code span, ampersands and angle brackets are encoded as HTML entities automatically, which makes it easy to include example HTML tags.
+
+### Image
+Similar to hyperlinks. 
+
+`
+![text](URL)
+`
+`
+![text][id]
+`
+
 
 
 ## Reference:
