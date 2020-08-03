@@ -37,7 +37,15 @@ atx-style: 1-6 hash characters at the start of the line corresponds to six level
 ##### Fifth-level header
 
 ### Blockquotes
+Markdown uses email-style `>` characters for blockquoting. Blockquotes can be nested by adding additional `<`.
+< This is a quote.
+<< Nested quote.
 
+### Lists
+Unordered lists use asterisks, pluses, and hyphens as list markers:
+*list 1*
++list 2
+-list 3
 
 
 
