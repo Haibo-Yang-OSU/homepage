@@ -20,7 +20,7 @@ Research experience
 ======
 * August 2018- : Research Assistant
   * Iowa State University
-  * Duties included: Distribute Learning
+  * Duties included: Distributed Learning
   * Supervisor: Professor Jia Liu
 
 
