@@ -9,20 +9,20 @@ tags:
 ---
 
 # Introduction
-Markdown is a text-to-HTML conversion tool for web writers.
+Markdown is a text-to-HTML conversion tool for web wirters.
 Markdown allows you to write with easy-to-read and easy-to-write plain text format.
 However, Markdown is not a replacement for HTML, or even close to it. Its syntax is very small, corresponding only to a very small subset of HTML tags. 
 
 # Syntax
 
-## Overview
+## Overiew
 `Markdown’s syntax is intended for one purpose: to be used as a format for writing for the web.
 Markdown is not a replacement for HTML, or even close to it. Its syntax is very small, corresponding only to a very small subset of HTML tags. The idea is not to create a syntax that makes it easier to insert HTML tags. In my opinion, HTML tags are already easy to insert. The idea for Markdown is to make it easy to read, write, and edit prose. HTML is a publishing format; Markdown is a writing format. Thus, Markdown’s formatting syntax only addresses issues that can be conveyed in plain text.`
 
 ## Block Elements
 
 ### Paragraphs and Line Breaks
-Def: A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines.   
+Def: A paragraph is simply one or more consecutive lines of text, seperated by one or more blank lines.   
 When you do want to insert a `<br />` break tag using Markdown, you end a line with two or more spaces, then type return.
 
 ### Headers
