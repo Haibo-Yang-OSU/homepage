@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Haibo Yang. I am a third-year Ph.D. student in the [Dept. of Computer Science](https://www.cs.iastate.edu/) at [Iowa State University](https://www.iastate.edu/), advised by [Prof. Jia(Kevin) Liu](http://web.cs.iastate.edu/~jialiu/).
+My name is Haibo Yang. I am a third-year Ph.D. student in the [Dept. of ECE](https://ece.osu.edu/) at [The Ohio State University](https://www.osu.edu/), advised by [Prof. Jia(Kevin) Liu](https://kevinliu-osu-ece.github.io/liu/).
 
 
 Research Interests
