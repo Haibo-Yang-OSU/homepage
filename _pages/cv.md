@@ -12,10 +12,10 @@ redirect_from:
 Education
 ======
 
-* Ph.D in Dept. of Electrical and Computer Engineering, The Ohio State University, January 2021 - present
+* Ph.D Student in Dept. of Electrical and Computer Engineering, The Ohio State University, January 2021 - present
 
 
-* Ph.D in Computer Science, Iowa State University, August 2018 - December 2020
+* Ph.D Student in Computer Science, Iowa State University, August 2018 - December 2020
 
 
 
