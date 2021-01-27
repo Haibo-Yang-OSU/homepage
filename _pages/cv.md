@@ -12,8 +12,16 @@ redirect_from:
 Education
 ======
 
-* Ph.D in Computer Science, Iowa State University, August 2018 - Present
+* Ph.D in Dept. of Electrical and Computer Engineering, The Ohio State University, January 2021 - present
 
+Research experience
+======
+* January 2021- : Research Assistant
+  * The Ohio State University
+  * Duties included: Federated Learning
+  * Supervisor: Professor Jia Liu
+
+* Ph.D in Computer Science, Iowa State University, August 2018 - December 2020
 
 Research experience
 ======

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Haibo Yang / Homepage"
 title_separator          : "-"
 name                     : &name "Haibo Yang"
-description              : &description "Ph.D. student,<br> Dept. of Computer Science,<br> Iowa State University"
+description              : &description "Ph.D. student,<br> Dept. of Electrical and Computer Engineering ,<br> The Ohio State University"
 url                      : https://goodphd.github.io/GoodPhd/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "GoodPhd/GoodPhd.github.io"
@@ -82,12 +82,13 @@ analytics:
 author:
   name             : "Haibo Yang"
   avatar           : "haibo_1.jpg"
-  bio              : "Ph.D. student,<br> Dept. of Computer Science,<br> Iowa State University"
-  location         : "217 Atanasoff Hall,<br> Iowa State University,<br> Ames, IA 50011 U.S.A."
+  bio              : "Ph.D. student,<br> Dept. of Electrical and Computer Engineering ,<br> The Ohio State University"
+#  location         : "217 Atanasoff Hall,<br> Iowa State University,<br> Ames, IA 50011 U.S.A."
+  location         : " Columbus, OH 43210 U.S.A."
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=4wmLx4kAAAAJ&hl=en"
-  email            : "yanghb@iastate.edu"
+  email            : "yang.5952@osu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
