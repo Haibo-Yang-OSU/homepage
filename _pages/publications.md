@@ -6,11 +6,11 @@ author_profile: true
 ---
 
 <br>
-<b>[Anarchic Federated Learning](https://arxiv.org/abs/2106.07155)</b> <br> 
+<b>[Anarchic Federated Learning](https://arxiv.org/abs/2108.09875)</b> <br> 
 <b>Haibo Yang</b>, Xin Zhang, Prashant Khanduri, Jia Liu, <br>
 <i>submitted, 2021</i>.
 
-<b>[CFedAvg: Achieving Efficient Communication and Fast Convergence in Non-IID Federated Learning](https://arxiv.org/abs/2108.09875)</b> <br> 
+<b>[CFedAvg: Achieving Efficient Communication and Fast Convergence in Non-IID Federated Learning](https://arxiv.org/abs/2106.07155)</b> <br> 
 <b>Haibo Yang</b>, Jia Liu, Elizabeth S. Bentley, <br>
 <i>in Proc. IEEE/IFIP WiOpt, 2021</i>.
 
