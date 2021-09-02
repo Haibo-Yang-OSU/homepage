@@ -28,4 +28,4 @@ Prashant Khanduri, Pranay Sharma, <b>Haibo Yang</b>, Mingyi Hong, Jia Liu, Ketan
 
 <b>[Byzantine-resilient stochastic gradient descent for distributed learning: A lipschitz-inspired coordinate-wise median approach](https://arxiv.org/pdf/1909.04532.pdf)</b> <br> 
 <b>Haibo Yang</b>, Xin Zhang, Minghong Fang, Jia Liu, <br>
-<i>in Proc. IEEE CDC, Nice, France, Dec. 2019.</i>.
+<i>in Proc. IEEE CDC, Nice, France, Dec. 2019</i>.
