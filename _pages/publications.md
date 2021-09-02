@@ -16,7 +16,7 @@ author_profile: true
 
 <b>[Achieving Optimal Sample and Communication Complexities for Non-IID Federated Learning]</b> <br> 
 Prashant Khanduri, Pranay Sharma, <b>Haibo Yang</b>, Mingyi Hong, Jia Liu, Ketan Rajawat, Pramod K. Varshney, <br>
-<i>in FL-ICML workshop IEEE/IFIP WiOpt, 2021</i>.
+<i>in FL-ICML workshop, 2021</i>.
 
 <b>[Achieving Linear Speedup with Partial Worker Participation in Non-IID Federated Learning](https://arxiv.org/abs/2101.11203)</b> <br> 
 <b>Haibo Yang</b>, Minghong Fang, Jia Liu, <br>
