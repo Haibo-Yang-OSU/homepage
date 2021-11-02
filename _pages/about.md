@@ -14,7 +14,7 @@ My name is Haibo Yang. I am a fourth-year Ph.D. student in the [Dept. of ECE](ht
 Research Interests
 ------
 
-My research generally centers around distributed/federated learning. More specifically, I am interested in is providing fundamental understandings of how distributed/federated learning algorithms are influenced by statistical variability and system variability due to privacy, communication and other constrains. Inspired by the theoretical insights, I am seeking to develop intelligent and efficient algorithms to better fit large-scale distributed/federated system.
+My research generally centers around distributed/federated learning. More specifically, I am interested in providing fundamental understandings of how distributed/federated learning algorithms are influenced by statistical variability and system variability due to privacy, communication and other constrains. Inspired by the theoretical insights, I am seeking to develop intelligent and efficient algorithms to better fit large-scale distributed/federated system.
 
 * First-order stochastic optimization algorithms.<br>
 To develop provable first-order stochastic optimization algorithms for convex/non-convex problems.
