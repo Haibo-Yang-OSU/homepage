@@ -19,7 +19,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 }
 
 body { 
-  font: normal .85em arial, sans-serif;
+  font: normal 1.0em arial, sans-serif;
   background: #F5F5F5 url(../images/pattern.png);
   color: #444;
   padding-bottom: 40px;
