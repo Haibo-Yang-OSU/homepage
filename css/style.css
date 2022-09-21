@@ -101,7 +101,7 @@ ol {
 }
 
 ol li { 
-  margin: 0 8px 11px 8px;
+  margin: 0 8px 11px 1em;
 }
 
 .left { 
