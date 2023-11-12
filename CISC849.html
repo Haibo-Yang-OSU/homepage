@@ -47,17 +47,30 @@
       <h2> Personnel</h2>
                     <p> <b>Instructor</b>: Haibo Yang, Assistant
                       Professor, Dept. of Computing and Information Sciences Ph.D.<br />
-                      <b>Contact:</b> Rm 74-1073, <a href="mailto:jialiu@iastate.edu">hbycis@rit.edu</a><br />
-                      <b>Time &amp; Location: </b> MoWeFr 1:00PM - 1:50PM (2023/08/28 - 2023/12/11),  <br />
-                      <b>Office Hours:</b> Wed 1:50PM – 2:30PM <br />
-                      <b>TA:</b> Aarti Ganesh Nayak, an5265@rit.edu <br />
-                      <b>TA Hours:</b> Mon 2:00PM — 3:00PM </p>
+                      <b>Contact:</b> Rm 74-1073, <a href="mailto:hbycis@rit.edu">hbycis@rit.edu</a><br />
+                      <b>Time &amp; Location: </b> TuTh 2:00PM -- 3:15PM, Golisano Hall (GOL)-2455  <br />
+                      <b>Office Hours:</b> Th 3:15PM – 4:15PM <br />
+                      <!-- <b>TA:</b> Aarti Ganesh Nayak, an5265@rit.edu <br />
+                      <b>TA Hours:</b> Mon 2:00PM — 3:00PM </p> -->
 
 
       <h2>Course Description</h2>
-      <p>An introduction to both foundational and modern machine learning theories and algorithms, and their application in classification and regression. Topics include: Mathematical background of machine learning (e.g. statistical analysis and visualization of data), Bayesian decision theory, parametric and nonparametric classification models (e.g., SVMs and Nearest Neighbor models) and neural network models (e.g. Convolutional, Recurrent, and Deep Neural Networks).  Programming assignments are required.</p>
+      <p>This course will introduce algorithm design and convergence analysis in non-convex optimization, with a strong emphasis on their practical applications in addressing contemporary challenges in machine learning and data science. The goal of this course is to prepare graduate students with a solid theoretical foundation at the intersection of optimization and machine learning so that they will be able to use optimization to solve advanced machine learning problems and/or conduct advanced research in the related fields. This course will focus on topics in nonconvex optimization that are of special interest in the machine learning community. Topics covered include large-scale distributed learning (for foundation models and large language models), federated learning, multi-task learning, as well as private and robust machine learning.</p>
       <h2>Course Materials</h2>
-        <h4>Recommended Textbooks</h4>
+      <p>There is no required textbook. 
+        Most of the material covered in the class will be based on recently published papers, relevant monographs, or classical books. 
+        A list of recently trending or historically important papers on nonconvex optimization theory for  machine learning will be provided.</p>
+        <h2>Paper Reading Assignments</h2>
+        <p>There will be estimated three paper reading assignments, each of which will be assigned during each topic set. Reading assignment must be typeset in <strong>NeurIPS</strong> format.</p>
+        <p>In each reading assignment, each student writes a review of a set of related papers in a topic set published in recent major machine learning venues (e.g., ICML, NeurIPS, ICLR, AAAI) or on arXiv. Some papers may be from those lectured in class.</p>
+        <p>The reviews may include the following: 1) a summary of the papers and their connections/relationships; 2) strengths/weaknesses of the papers from the following aspects: soundness of assumptions/theorems, empirical evaluation, novelty, and significance, etc.; 3) which parts are difficult to understand, questions about proofs/results/experiments (if there are any); and 4) how the papers can be improved and extended.
+        </p>
+        <h2>Final Project</h2>
+        <p>Students could choose to finish a project individually or by a team of no more than two persons. Final reports will be due after project presentations in the final week. Final reports should follow the <strong>NeurIPS format</strong>. Each project is required to have a 20-minute presentation in the final week. Attendance to your fellow students' presentations is required. Potential project ideas include but are not limited to: 1) nontrivial extension of the results introduced in class; 2) novel applications in your own research area; 3) new theoretical analysis of an existing algorithm, etc.
+        </p>
+        <p>Each project should contain something new. It is important that you justify its novelty.</p>
+        
+        <!-- <h4>Recommended Textbooks</h4>
         <ur>
           <li>Hastie, T., et al. (2009) The elements of statistical learning, 2nd Edition. Springer.</li>
           <li>Charniak, E. (2019) An Introduction to Deep Learning.</li>
@@ -66,14 +79,50 @@
         <ur>
           <li>Francis Bach. (2023) Learning Theory from First Principles.</li>
           <li>Ian Goodfellow, et al. (2016) Deep Learning, MIT press, 2016.</li>
-        </ur>
+        </ur> -->
       <h2>Prerequisites</h2>
-        <p>(CSCI-603 or CSCI-605 with a grade of B or better) or ((CSCI-243 or SWEN 262) and (MATH-251 or STAT-205)) or equivalent courses.</p>
+        <p>Working knowledge of probability and linear algebra. Prior exposure to convex/nonlinear optimization is a plus but not necessary.</p>
       <h2>Grading Policy</h2>
-        <p>Class Participation: 10%; Assignments: 50%; Project: 40%.</p>
+        <p>Class Participation: 10%; Paper Reading Assignments: 45%; Project: 45%.</p>
         <h2>Schedule</h2>
         </center>
-        <table border="1">
+        <ul>
+          <li><strong>Week 1--2: Foundamentals of Optimization</strong>
+            <ul>
+              <li>Basic analysis and linear algebra</li>
+              <li>Foundations of convex analysis</li>
+              <li>Concept of convergence and its metrics</li>
+            </ul>
+          </li>
+        
+          <li><strong>Weeks 2--7: First-Order Methods</strong>
+            <ul>
+              <li>Gradient descent and stochastic gradient methods</li>
+              <li>Variance-reduction methods</li>
+              <li>Adaptive methods</li>
+              <li>Parameter-free methods</li>
+              <li><strong>Case study:</strong>  algorithm design in deep learning</li>
+            </ul>
+          </li>
+        
+          <li><strong>Weeks 8--12: Distributed and Federated Learning</strong>
+            <ul>
+              <li>Synchronous and asynchronous SGD</li>
+              <li>Local update SGD and federated learning</li>
+              <li>Communication efficient methods: quantization and sparsification</li>
+              <li><strong>Case study:</strong> large-scale distributed learning for large language models (LLM); differentially private distributed learning; robust distributed learning</li>
+            </ul>
+          </li>
+        
+          <li><strong>Weeks 13--16: Multi-Objective Learning</strong>
+            <ul>
+              <li>Classical MOO: weighted sum and constraint methods</li>
+              <li>Multiple (stochastic) gradient descent methods</li>
+              <li><strong>Case study:</strong> multi-task learning</li>
+            </ul>
+          </li>
+        </ul>        
+        <!-- <table border="1">
                   <tr>
                       <th>Week/Start</th>
                       <th>Topics</th>
@@ -82,58 +131,57 @@
                   <tr>
                       <td>1 (8/28)</td>
                       <td>Machine learning, classification, regression</td>
-                      <td><a href="https://rit.zoom.us/rec/share/VxUOJlEZAkvhtrcC0SQhUEbIRkbx4KFhsDN5R2tddnXVoCgWF04o43LOCujq1oMP.DWo1nuH3WbN26DPY?startTime=1693241570000">Lec01</a>,<a href="https://rit.zoom.us/rec/share/ZznCJzvorE3naKnpLzfRvCFrsvbGs_Bk8usxmbOcExqKa8X50Iuj9b4bj4L69nvR.BFIcU-jTSw-VYLet">Lec02</a>,<a href="https://rit.zoom.us/rec/share/ho4KzFMm-NlNXqdYFqP6ppng2-ya9imAXS2MeJ69ZoB2chBIohNRg_8XiXK5wBCl.nSCCj77eINCOpRPW">Lec03</a></td>
+                      <td></td>
                   </tr>
                   <tr>
                       <td>2 (9/04)</td>
                       <td>Linear models, Least Squares</td>
-                      <td><a href="https://rit.zoom.us/rec/share/sJOKcHUV1p6QZ22RK7a-Pjj5lnsGyD6EWWbpRqBnZ8x83o4VeN7PgKtDWsHAiIc8.lbODXxILojWEdFZz">Lec04</a>,<a href="https://rit.zoom.us/rec/share/Rk2jnFeB8qpbDkUJ2iw2RZaU2pNJ5-gKFfj7NsNU9S0EWvvbt7hBXyj4dwX0ed7_.D-k963JoJT5a3Ibc">Lec05</a></td>
+                      <td></td>
                   </tr>
                   <tr>
                       <td>3 (9/11)</td>
                       <td>KNN, SVM</td>
-                      <td><a href="https://rit.zoom.us/rec/share/uQddwwtsxCT3FIUOEvOAmKwoKIbHfFIOYRn0hczsaD_vUL8-T2c-rHTobXOaRGef.z-qD0HiU1zuq6HMX">Lec06</a>, <a href="https://rit.zoom.us/rec/share/SqKffsusdmSKAaucRM28rg9rG43XGfD_CwYA67wOp5b5J2txrIo9RuNJR6lq6xA7.4Gh4AGfCjgwLNr9T">Lec07</a>,<a href="https://rit.zoom.us/rec/share/1968p1AzsIwBDPU-cHBNbHinGyx0h5iT_XNJpfoMb3J-li0_gluDTqS1k0wmnqhM.K76kcsNSD-LmPAzX">Lec08</a></td>
+                      <td></td>
                   </tr>
                   <tr>
                       <td>4 (9/18)</td>
                       <td>Kernel</td>
-                      <!-- <td>Bayesian parametric models and Gaussian distribution</td> -->
-                      <td><a href="https://rit.zoom.us/rec/share/_d4DtBVlC_YxKxXaBgokjvVbYCwvzMJkTtOrXAFgfmfaZeImN3hamZdhuyinDhAR.TH8TM9C_uDNKMT2Y">Lec09</a>, <a href="https://rit.zoom.us/rec/share/CCQMruj5WMb17D0ss3DEnf0FohbVlQ3M-gdti8due_1bUEd9cMu6cj9N3oN3j4Xg.AYGDAAuEkOkr8gKE">Lec10</a>,<a href="https://rit.zoom.us/rec/share/EyTSg5_D6IdkikBB4Ch_4yPsSOflL70rHVymobWmHZWRpobGg7vHCHnCOxAABdmW.ni0cIYe-QFqyXhQl">Lec11</a></td>
+                      <td></td>
                   </tr>
                   <tr>
                       <td>5 (9/25)</td>
                       <td>Generative learning, GDA</td>
-                      <td><a href="https://rit.zoom.us/rec/share/N_KNzkG0satD8d5LbDwyt26k1xqv55Lzq_i77qPWtDGIVgbB2AdXwFVWGcnq9c_E.C3eTNTGbV6PHo9HF">Lec12</a>,<a href="https://rit.zoom.us/rec/share/uKFleXml9_uth7OzSx-w7gJ4SHquXel4Ts6agh34HCwLLvd8BMkCMmX2kiBce6Hq.XBvrLEeTkNdufNtL">Lec13</a>,<a href="https://rit.zoom.us/rec/share/3pRY1DycB9X3UhnXIgu144EPCAENtwz-kpk_h8FEALpRQVINRWjvM8RS6nwGF1dE.Mb55bAKe0sHLzlKg">Lec14</a></td>
+                      <td></td>
                   </tr>
                   <tr>
                       <td>6 (10/02)</td>
                       <td>Navie Bayes, Perceptron Learning, Neural Networks</td>
-                      <td><a href="https://rit.zoom.us/rec/share/ozryNfPU0_z0p8ymDl5dden5-9GUM1pXR6-lAqLcyBcBTGQNgpK8WON42b7nTp72.yzjEq4V19R6FDWVQ">Lec15</a>,<a href="https://rit.zoom.us/rec/share/-eXv1dkmdwKjrxDstJDhCEvfDFkFF7peOCAiOJHBRJPHvvnNfqujfr-qAyCgfjYc.-OTv8NmpjwMjhZ7J">Lec16</a>,<a href="https://rit.zoom.us/rec/share/rKqV7m2EFu66TLHpSW5ppwP3IGOLtvZvw_gIxSnRpz0_RpMO_3bZy7tdXRf0Ckg.ih2u6SuMAXmlymjJ">Lec17</a></td>
+                      <td></td>
                   </tr>
                   <tr>
                       <td>7 (10/09)</td>
                       <td>Backpropagation</td>
-                      <td><a href="https://rit.zoom.us/rec/share/S54Yk8ooMJKRjx21tV3a9rUXGmnulsUVf39Snw5m0YH8tMHiEMvCh8bqnpY_8y8i.LtOFF1f0CbEfh6h4">Lec18</a>,<a href="https://rit.zoom.us/rec/share/rzA7eAhmxbl-ITj9NAw-WKNRNkibOl644I0Qd5W2PLNXWBUGG5VxDeuH0Nklzlfm._FhM3m5Qn1N1YKZo">Lec19</a></td>
+                      <td></td>
                   </tr>
                   <tr>
                       <td>8 (10/16)</td>
                       <td>Bias,variance, regularization</td>
-                      <td><a href="https://rit.zoom.us/rec/share/w4A-0eAPTgRCO1jwAbPN7ccA2EuOQmCFc6ldufswgB0TzqKjaQsuN30ftabnLune.Ec6feSBa2GYRFvU2">Lec20</a>,<a href="https://rit.zoom.us/rec/share/38GBt1fzGc1C9XglzxQfqbijjPd13e1QChz_yA1wWI2gdnatqFW4pXbAQfY3NlYq.yCvGkP_bkpI0FHkc">Lec21</a>,<a href="https://rit.zoom.us/rec/share/mnZEIhpbg58xcie-S_JrR5qr16t6aZhU7CSCIsdS_t7q15P4gB3XJ9tL1592QAQ.oKktL19_bOD7HFQQ">Lec22</a></td>
+                      <td></td>
                   </tr>
                   <tr>
                       <td>9 (10/23)</td>
                       <td>Decision Tree,ensembles</td>
-                      <td><a href="https://rit.zoom.us/rec/share/dNlfXqhXQsNUJohfCohiPgIsxUTTpnfpwmXCNoxWx_tYD5j7ioNYaV0Ae98XXXuA.-7AsBN59UFyxn4BD">Lec23</a>,<a href="https://rit.zoom.us/rec/share/t03_IhhMJtX5HIYuuyqethG11AY5xCJ_LfeMCtXK0qtKmOUc_vhehVY5fAyA-446.cjUv-rz9eBGM30i8">Lec24</a>,<a href="https://rit.zoom.us/rec/share/QIZmdkCvA8K0zwvDCb24Ohtf4z8yCdPCy9XWkOKCjTnJWQoqXALmm7hnX2S6MmM.M8hu5AMm8hftsflv">Lec25</a></td>
+                      <td></td>
                   </tr>
                   <tr>
                       <td>10 (10/30)</td>
                       <td>Project Proposal Presentations</td>
-                      <td><a href="https://rit.zoom.us/rec/share/3MGqAHNzELqfB7kONv4ZHpLELXAlq5R15017FSpoIGDmlDCuMbJyj4vxBUs2GsbD.47gWl0s6rbcuJ3KH">Midterm1</a>,<a href="https://rit.zoom.us/rec/share/uJ6spsRnmKqO6ts7KYJXbMnLyEsd0qKEi2lQT906sYBr5RDMnRu9vIzwpiT7L7-P.SFHt_4k1aXpPZBaq">Midterm2</a>,<a href="https://rit.zoom.us/rec/share/ifn_i9UVKebbi1ciET59v3VAxvC0hHGfVo7WXmjcQTa0ALLaQOfYfFqVIlIMa0Ue.i3hZvkI0ddoLdSTX">Midterm3</a></td>
+                      <td></td>
                   </tr>
                   <tr>
                       <td>11 (11/06)</td>
                       <td>Unsupervised learning: clustering, K-means</td>
-                      <td><a href="https://rit.zoom.us/rec/share/JUOAvoxfBbUACsEjwNLLA0u35Scm01O59RohA6Zf9kNDTBf9D5fCRvCzUjAMGDVn.vKTszh4jUNO2ZMsc">Lec26</a>,<a href="https://rit.zoom.us/rec/share/Atg5FsxMk2s_4G1B5wiZLxSyypsdg9OrGFA6UPCf_oXvz3RuhgkuDuiTYy3p-2fF.RlKm6kgXdjRUu0ns">Lec27</a>,<a href="https://rit.zoom.us/rec/share/38QuOTFqvxdSqsWwLzNVMNPXdT3U-MtVziXkE73boChpFtT4ZDekHmotpF9nsaaV.pTokuyoPJaNy8Zgt">Lec28</a></td>
+                      <td></td>
                   </tr>
                   <tr>
                       <td>12 (11/13)</td>
@@ -160,7 +208,7 @@
                       <td>Finals</td>
                       <td></td>
                   </tr> 
-        </table>
+        </table> -->
         <p></p>
         <h2>Academic Integrity</h2>
         <p>As an institution of higher learning, RIT expects students to behave honestly and ethically at all times, especially when submitting work for evaluation in conjunction with any course or degree requirement. The  Golisano College of Computing and Information Sciences encourages all students to become familiar with the RIT Honor Code and with RIT's Academic Integrity Policy. Students may discuss assignments with others including classmates, tutors and SLI instructors. After any such discussions, students must discard all written notes/pictures/etc. Submitting any work written by others or as an unsanctioned team is considered an act of academic dishonesty. Team-developed work also must be created solely by the team members and not copied from others or other sources. Work copied from Github or other similar sources will be subject to prosecution for breach of academic integrity.</p>
